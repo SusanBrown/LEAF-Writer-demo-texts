@@ -207,10 +207,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912185825516",
+	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912185947077",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-12T22:58:25.516Z",
-	"dcterms:modified": "2022-09-12T22:58:25.516Z",
+	"dcterms:created": "2022-09-12T22:59:47.077Z",
+	"dcterms:modified": "2022-09-12T22:59:47.077Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -220,7 +220,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912185825516#Target",
+		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912185947077#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml",
@@ -234,14 +234,14 @@
 			"schema:softwareVersion": "1.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912185825516#Selector",
+			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912185947077#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/opener/salute/orgName[2]/orgName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q11701",
+		"@id": "http://viaf.org/viaf/9910164661904103390003/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -257,7 +257,7 @@
    <text>
       <body>
          <pb cert="high" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/congress_letter_facsimile_1871.jpg" xml:space="default"/>
-         <opener><salute>To the Honorable the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872). Senate" ref="http://viaf.org/viaf/130655712/">Senate</orgName> and <orgName key="United States House of Representatives" ref="http://www.wikidata.org/entity/Q11701"><orgName key="United States House of Representatives" ref="http://www.wikidata.org/entity/Q11701">House of Representatives</orgName></orgName> of the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872)" ref="http://viaf.org/viaf/42156495479517562363/">United States in
+         <opener><salute>To the Honorable the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872). Senate" ref="http://viaf.org/viaf/130655712/">Senate</orgName> and <orgName key="United States House of Representatives" ref="http://www.wikidata.org/entity/Q11701"><orgName key="Maine. Legislature. Joint Select Committee on Claims" ref="http://viaf.org/viaf/9910164661904103390003/">House of Representatives</orgName></orgName> of the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872)" ref="http://viaf.org/viaf/42156495479517562363/">United States in
             Congress</orgName> Assembled:</salute></opener>
          <p>The undersigned, Citisens of the <orgName key="United States" ref="http://dbpedia.org/resource/United_States">United States</orgName>, believing that under the present <title key="United States Constitution" ref="http://www.wikidata.org/entity/Q11698">Federal
             Constitution</title> all women who are citisens of the <placeName key="United States" ref="http://dbpedia.org/resource/United_States">United States</placeName> have the right to vote,
@@ -269,7 +269,7 @@
             Session.</p>
          <p>We ask your Honorable Body to bear in mind that while men are represented on the floor of Congress and so may be said to be heard there, women who are
             allowed no vote and therefore no representation cannot truly be heard except as Congress
-            shall open its doors to us in person.</p>
+            shall open its doors to us in person. (WoW! What an amazing letter!)</p>
          <closer>
             <signed> <lb/><persName key="Stanton, Elizabeth Cady, 1815-1902" ref="http://viaf.org/viaf/22937739/"><persName key="Elizabeth Cady Stanton" ref="http://www.wikidata.org/entity/Q465335">Elizabeth Cady Stanton</persName></persName>
          <lb/><persName key="Hooker, Isabella Beecher, 1822-1907" ref="http://viaf.org/viaf/13591703/">Isabella Beecher Hooker</persName>
