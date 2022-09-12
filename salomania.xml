@@ -44,10 +44,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/salomania.xml?person_annotation_20220912083926451",
+	"id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/salomania.xml?person_annotation_20220912093042778",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-12T12:39:26.451Z",
-	"dcterms:modified": "2022-09-12T12:39:26.451Z",
+	"dcterms:created": "2022-09-12T13:30:42.778Z",
+	"dcterms:modified": "2022-09-12T13:30:42.778Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -57,7 +57,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/salomania.xml?person_annotation_20220912083926451#Target",
+		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/salomania.xml?person_annotation_20220912093042778#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/salomania.xml",
@@ -71,7 +71,7 @@
 			"schema:softwareVersion": "1.6.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/salomania.xml?person_annotation_20220912083926451#Selector",
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/salomania.xml?person_annotation_20220912093042778#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/persName"
 		}
