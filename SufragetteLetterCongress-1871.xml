@@ -52,10 +52,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183645531",
+	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912163645531",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-12T22:36:45.531Z",
-	"dcterms:modified": "2022-09-12T22:36:45.531Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -65,7 +64,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183645531#Target",
+		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912163645531#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml",
@@ -79,7 +78,7 @@
 			"schema:softwareVersion": "1.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183645531#Selector",
+			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912163645531#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/closer/dateline/placeName/placeName"
 		}
@@ -130,20 +129,20 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912184759162",
+	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?person_annotation_20220912164930716",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-12T22:47:59.162Z",
-	"dcterms:modified": "2022-09-12T22:47:59.162Z",
+	"dcterms:created": "2022-09-12T22:49:30.716Z",
+	"dcterms:modified": "2022-09-12T22:49:30.716Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Susan Brown"
+		"cwrc:hasName": "Mihaela Ilovan"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912184759162#Target",
+		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?person_annotation_20220912164930716#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml",
@@ -157,14 +156,14 @@
 			"schema:softwareVersion": "1.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?organization_annotation_20220912184759162#Selector",
+			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?person_annotation_20220912164930716#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/opener/salute/orgName[2]/orgName"
+			"rdf:value": "TEI/text/body/closer/signed/persName/persName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q11701",
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q465335",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -180,7 +179,7 @@
    <text>
       <body>
          <pb cert="high" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/congress_letter_facsimile_1871.jpg" xml:space="default"/>
-         <opener><salute>To the Honorable the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872). Senate" ref="http://viaf.org/viaf/130655712/">Senate</orgName> and <orgName key="United States House of Representatives" ref="http://www.wikidata.org/entity/Q11701"><orgName key="United States House of Representatives" ref="http://www.wikidata.org/entity/Q11701">House of Representatives</orgName></orgName> of the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872)" ref="http://viaf.org/viaf/42156495479517562363/">United States in
+         <opener><salute>To the Honorable the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872). Senate" ref="http://viaf.org/viaf/130655712/">Senate</orgName> and <orgName key="United States House of Representatives" ref="http://www.wikidata.org/entity/Q11701">House of Representatives</orgName> of the <orgName key="United States. Congress (42nd, 2nd session : 1871-1872)" ref="http://viaf.org/viaf/42156495479517562363/">United States in
             Congress</orgName> Assembled:</salute></opener>
          <p>The undersigned, Citisens of the <orgName key="United States" ref="http://dbpedia.org/resource/United_States">United States</orgName>, believing that under the present <title key="United States Constitution" ref="http://www.wikidata.org/entity/Q11698">Federal
             Constitution</title> all women who are citisens of the <placeName key="United States" ref="http://dbpedia.org/resource/United_States">United States</placeName> have the right to vote,
@@ -194,7 +193,7 @@
             allowed no vote and therefore no representation cannot truly be heard except as Congress
             shall open its doors to us in person.</p>
          <closer>
-            <signed> <lb/><persName key="Stanton, Elizabeth Cady, 1815-1902" ref="http://viaf.org/viaf/22937739/">Elizabeth Cady Stanton</persName>
+            <signed> <lb/><persName key="Stanton, Elizabeth Cady, 1815-1902" ref="http://viaf.org/viaf/22937739/"><persName key="Elizabeth Cady Stanton" ref="http://www.wikidata.org/entity/Q465335">Elizabeth Cady Stanton</persName></persName>
          <lb/><persName key="Hooker, Isabella Beecher, 1822-1907" ref="http://viaf.org/viaf/13591703/">Isabella Beecher Hooker</persName>
          <lb/><persName key="Bladen, Elizabeth S." ref="http://viaf.org/viaf/12041742/">Elizabeth S. Bladen</persName>
          <lb/><persName key="Brown, Olympia, 1835-1926" ref="http://viaf.org/viaf/47848852/">Olympia Brown</persName>
