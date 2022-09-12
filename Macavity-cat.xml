@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Heresies Project</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>A Bucknell Production</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/SusanBrown/leaf_workshops_Sept2022/main/PracticeMaterials/Macavity/Macavity-cat.xml?person_annotation_20220912093801605",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-12T13:38:01.605Z",
+	"dcterms:modified": "2022-09-12T13:38:01.605Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/leaf_workshops_Sept2022/main/PracticeMaterials/Macavity/Macavity-cat.xml?person_annotation_20220912093801605#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/leaf_workshops_Sept2022/main/PracticeMaterials/Macavity/Macavity-cat.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/leaf_workshops_Sept2022/main/PracticeMaterials/Macavity/Macavity-cat.xml?person_annotation_20220912093801605#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q3841957",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+	<text>
+		<body>
+			<pb n="1" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity1.jpg"/>
+
+				<head>
+					<title>MACAVITY: THE MYSTERY CAT</title>
+				</head>
+			
+				<lg><l>
+					<persName key="Macavity" ref="http://www.wikidata.org/entity/Q3841957">Macavity</persName>'s a Mystery Cat: he's called the Hidden Paw</l><l>For he's the master criminal who can defy the Law.</l><l>He's the bafflement of Scotland Yard, the Flying Squad's</l><l>despair:</l><l>For when they reach the scene of crime—Macavity's not there!</l></lg><lg><l>Macavity, Macavity, there's no one like Macavity,</l><l>He's broken every human law, he breaks the law of gravity.</l><l>His powers of levitation would make a fakir stare,</l><l>And when you reach the scene of crime—Macavity's not there!</l><l>You may seek him in the basement, you may look up in the //
+					air— //
+					But I tell you once and once again, Macavity's not there! //
+					Macavity's a ginger cat, he's very tall and thin; //
+					You would know him if you saw him, for his eyes are sunken in. //
+					His brow is deeply lined with thought, his head is highly //
+					domed; //
+					His coat is dusty from neglect, his whiskers are uncombed. //
+					He sways his head from side to side, with movements like a //
+					snake; //
+					And when you think he's half asleep, he's always wide awake. //
+				</l></lg>
+				
+				<pb n="2" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity2.jpg"/>
+				<lg><l>
+					Macavity, Macavity, there's no one like Macavity, //
+					For he's a fiend in feline shape, a monster of depravity. //
+					You may meet him in a by-street, you may see him in the //
+					square-- //
+					But when a crime's discovered, then Macavity's not there! //
+					He's outwardly respectable. (They say he cheats at cards.) //
+					And his footprints are not found in any file of Scotland Yard's. //
+					And when the larder's looted, or the jewel-case is rifled, //
+					Or when the milk is missing, or another Peke’s been stifled, //
+					Or the greenhouse glass is broken, and the trellis past repair- //
+					Ay, there's the wonder of the thingl Macavity's not there! //
+					And when the Foreign Office find a Treaty's gone astray, //
+					Or the Admiralty lose some plans and drawings by the way, //
+					There may be a scrap of paper in the hall or on the stair- //
+					But it's useless to investigate—Macavity's not there! //
+					And when the loss has been disclosed, the Secret Service say: //
+					"It must have been Macavityl"—but he's a mile away. //
+					You'll be sure to find him resting, or a-licking of his thumbs, //
+					Or engaged in doing complicated long division sums. //
+					Macavity, Macavity, there's no one like Macavity, //
+					There never was a Cat of such deceitfulness and suavity. //
+				</l></lg>
+				<pb n="3" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity3.jpg"/>
+				<lg><l>
+					He always has an alibi, and one or two to spare: //
+					At whatever time the deed took place-MACAVITY WASN'T /
+					THERE! //
+					And they say that all the Cats whose wicked deeds are widely //
+					known //
+					(I might mention Mungojerrie, I might mention Griddlebone) //
+					Are nothing more than agents for the Cat who all the time //
+					Just controls their operations: the Napoleon of Crimel //
+				</l></lg>
+			
+		</body>
+	</text>
+</TEI>
