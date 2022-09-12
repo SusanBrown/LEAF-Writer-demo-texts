@@ -52,10 +52,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183208449",
+	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183645531",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-12T22:32:08.449Z",
-	"dcterms:modified": "2022-09-12T22:32:08.449Z",
+	"dcterms:created": "2022-09-12T22:36:45.531Z",
+	"dcterms:modified": "2022-09-12T22:36:45.531Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -65,7 +65,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183208449#Target",
+		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183645531#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml",
@@ -79,7 +79,7 @@
 			"schema:softwareVersion": "1.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183208449#Selector",
+			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183645531#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/closer/dateline/placeName/placeName"
 		}
@@ -87,84 +87,6 @@
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "https://geonames.org/4835797",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183506892",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-12T22:35:06.892Z",
-	"dcterms:modified": "2022-09-12T22:35:06.892Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Susan Brown"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183506892#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/LEAF-Writer-demo-texts/main/SufragetteLetterCongress-1871.xml?place_annotation_20220912183506892#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/dateline/placeName[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/4831725",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -200,7 +122,7 @@
          <lb/><persName key="Brown, Olympia, 1835-1926" ref="http://viaf.org/viaf/47848852/">Olympia Brown</persName>
          <lb/><persName key="Anthony, Susan B. (Susan Brownell), 1820-1906" ref="http://viaf.org/viaf/27864812/">Susan B. Anthony</persName>
          <lb/><persName key="Josephine Sophia White Griffing" ref="http://www.wikidata.org/entity/Q6288447">Josephine S. Griffing</persName></signed>
-         <dateline><placeName key="Hartford, Connecticut" ref="http://dbpedia.org/resource/Hartford,_Connecticut"><placeName key="Hartford Connecticut United States" ref="https://geonames.org/4835797">Hartford</placeName></placeName> <placeName key="Connecticut" ref="http://dbpedia.org/resource/Connecticut"><placeName key="Connecticut Connecticut United States" ref="https://geonames.org/4831725">Conn</placeName></placeName>.
+         <dateline><placeName key="Hartford, Connecticut" ref="http://dbpedia.org/resource/Hartford,_Connecticut"><placeName key="Hartford Connecticut United States" ref="https://geonames.org/4835797">Hartford</placeName></placeName> <placeName key="Connecticut" ref="http://dbpedia.org/resource/Connecticut">Conn</placeName>.
          <lb/><date when="1871">Dec. 1871</date></dateline>
          </closer></body>
    </text>
