@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 	<teiHeader> 		<fileDesc> 			<titleStmt> 				<title>The Heresies Project</title> 			</titleStmt> 			<publicationStmt> 				<p>A Bucknell Production</p> 			</publicationStmt> 			<sourceDesc> 				<p>Information about the source</p> 			</sourceDesc> 		</fileDesc> 		 	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20220908165939181",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:59:39.181Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20220908165939181#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20220908165939181#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Mitchell, Juliet, \"Women and Equality,\" in Partisan Review (Summer, 1975)"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20220908170027670",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:00:27.670Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20220908170027670#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20220908170027670#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[14]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Rowbotham, Sheila, Women, Resistance and Revolution, Vintage Books (New York, 1974)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20220908170059570",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:00:59.570Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20220908170059570#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20220908170059570#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[14]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "lbid., p. 51"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20220908170143599",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:01:43.599Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20220908170143599#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20220908170143599#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Schneir, Miriam, ed., Feminism: The Essential Historical Writings, Vintage Books (New York, 1972), p. xviii."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20220908170214603",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:02:14.603Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20220908170214603#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20220908170214603#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Ibid., p. XV."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20220908170253476",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:02:53.476Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20220908170253476#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20220908170253476#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[28]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Guettel, Charnie, Marxism and Feminism, Women's Educational Press (Ontario, Canada, 1974), p. 2"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20220908170337016",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:03:37.016Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20220908170337016#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20220908170337016#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[29]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "In Film Culture Reader, ed., P. Adams Sitney, Praeger (New York, 1970)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader> 	<text> 		<body> 				<pb n="1"/> 				<div><head>Juggling Contradictions: Feminism, the Individual and What's 						Left</head> 					<byline>Joan Braderman</byline> 				</div> <div> 				<p>In this essay, I would like to suggest where feminism can lead us and what myths 					must finally be left behind to get there. The nature of these myths—the myths of 					equality, individual- ism and democratic liberalism—which under- write our 					humanist heritage, account for the weakest elements of feminist ideology. The 					recognition that feminism is an ideology, like Marx's recognition that humanism 					is an ideology (i.e., not a discourse whose "truth" was in- separable from the 					world it described) is a nec- essary step in re-examining what feminism is and 					what it can do.</p> 				<p> I will use as a conceit the form of "the contra- diction"—that underlying, 					dynamic mechanism of history—in a way that is sometimes more metaphorical than 					concrete. I take the liberty of using this model rhetorically at times to begin 					to establish a series of interrelationships be- tween ideologies and their 					culture. I use it to suggest the many ways the several spheres of interest to 					Heresies readers—art, feminism and their political context—are subject to a set 					of analogous and mutually reinforcing ideologi- cal myths. Most feminists and 					artists alike are still held captive by the power of these seduc- tive belief 					systems, although they threaten the coherence of our arguments, threaten our 					inter- ests and threaten the very survival of the ideal of freedom.</p> 				<p> A confrontation between the facts and fic- tions which surround us becomes 					inevitable within an escalating spiral of contradictions. The first group to 					experience directly the essen- tial contradictions of the society we live in is, 					of course, the lowest class: the unemployed, the poorest, least skilled, most 					exploited working people. Next, the marginal groups, in North America: people of 					color, immigrants, the el- derly, etc. Artists are marginal too. They feel the 					economic squeeze in recessions, may even become politicized as a result. And 					across all these groups are women. As groups, then, wom- en and artists have a 					low priority in the hier- archy of capital.</p> 				<p> To give up the humanist myths, those most cherished ideals of our own class, the 					bourgeoi- sie, which were forged when it was the revolu- tionary class, is 					difficult indeed. But give them up we must, for in the face of heightening con- 					tradictions-economic, biological, ideological —we have no choice. </p> 				<p>By 1976, the women's movement seems to have nearly as many political lines as 					there are women in it. This partly healthy, partly disturb- ing fact reflects 					with painful clarity both the strengths and implicit weaknesses of the femi- 					nist critique of society. What is feminist prac- tice? What is it to be a 					feminist in 1976? Is it to be an individual woman "making it" in a man's world? 					Is it to recognize woman's historical oppression and, released from individual 					frus- tration and guilt, to take on collective responsi- bility? What is the 					nature of such a responsibili- ty? Is it restricted to oneself? To oneself and 					the women one sees every week? Is this a responsi- bility to oneself, to women, 					to men, to history? In short, is feminism, as an ideology, funda- mentally 					dangerous to the sexism it despises? If so, how?</p> 				<p> To many women, enmeshed in the growing contradictions of late capitalist 					society, femi- nism, by 1976, has proven as much a trap as a liberation. What 					seemed to so many of us as little as five years ago a potentially revolution- 					ary force now appears to be virtually co-opted. The great capitalist commodity 					machine has produced a whole new catalogue of cultural commodities: the feminist 					writer, artist, poet; the teminist academic, professional, journal- ist, TV 					persona; the feminist token with that "feminist mystique." She is for sale in 					the cul- tural marketplace. She is tough, durable, tire- ess. She is "sexually 					liberated" (a great lay). She works harder than a man. She has to. She is still 					a woman in a world that calls people "man- kind." That is, "equality" for women 					still equals inequality for women. This is a contradiction.</p> 				<p> What kind of contradiction? It is a contradic- tion between the ideology of 					bourgeois femi- nism and economic and biological fact. The economic facts of 					life for the great majority of women remain the same: unpaid domestic labor, 					ill-paid labor in the work force. Biological fact (which is gender difference 					along with its cultural baggage) proposes a contradiction, even for those of us 					who are female tokens of one sort or another, who are members of the 					bourgeoisie.</p> 				<p> Our psycho-sexual behavior, like our eco- nomic roles, is wholly determined by 					an in- herited system of power relations, not only in the public sector, but at 					deeper levels, in the formation—within the family—of the psyche itself. Hence, 					as Juliet Mitchell so carefully <pb n="2"/> describes, <note type="researchNote">Mitchell, Juliet, "Women and Equality," in Partisan Review (Summer, 1975)</note> it is the concept of 					equality which is invalid within our system. The abstract ideal of equality, she 					demonstrates, provides the philosophical basis for our laws. Our legal sys- tem, 					at its best, functions as if each of its in- dividual constituents were equal. 					If some people have only their labor to sell, and this labor produces more value 					than it returns to the laborer an unequal exchange has taken place. The laborer, 					then, and the owner of the means to produce that "surplus value" are not equal. 					If some people are denied, by virtue of their color, access even to the skills 					of labor, to whom are they equal? If half of all people have babies and half do 					not, are they all "equal"? Logical in- compatabilities arise: what is different 					is not the same, and gender (among other things) means difference.</p> 				<p> Radical feminism has tried to take on this contradiction indeed proclaimed it 					the essen- tial contradiction in our form of social organiza- tion. Between 					biology and destiny, it proposes, stands consciousness. Woman's oppression 					vertically crosses class lines, crosses race lines; women, armed with 					"consciousness" would speak to each other across a history of divisions and 					change the world. Women's groups would not only clarify the areas of shared 					experience which foster that consciousness, but would serve as support 					communities. With sisterhood for strength, women would hit male supremacy where 					it lived: at home. Yet what, after all, has changed? The quality of life for a 					few privileged women —a small step. Was all that fervor, sister- hood and 					revolutionary idealism that was meant to reinvent the terms for a mass movement 					so easily engorged, packaged and recycled?</p> 				<p> For radical feminism too has been partially co-opted. Since it had already 					dropped out of the broader (sexist) political arena, it provided support systems 					for women, but toward an un- certain end. Seeing few alternatives and tanta- 					lized by a taste of power women often used that strength to re-enter the 					dominant culture to become as competitive, as "good" as men. Has the women's 					movement had so little concrete impact on most women's lives?</p> 				<p> Certainly the patriarchy was sufficiently threatened to let the feminist token 					into the limelight. (Why co-opt without advertising the co-opted product?) But 					she did not make it into the statistics. The economic facts so far as most women 					are concerned remain unchanged: un- paid domestic labor; ill-paid labor in the 					work force. The wage differential between men and women in fact is now greater 					than it was ten years ago. Even the hard-won victory of abor- tion (for a 					price), even the possibility of "equal rights" before the very laws which uphold 					a sys- tem of inequality, are a slap in the face to an ideology which aimed to 					alter the very "nature“ of human relationships. This too is a contradiction. </p> 				<p>What kind of contradiction? It is a contra- diction between an ideology and a 					system; an ideology which has placed its profoundly hu- manist hope in 					individual consciousness as somehow separable from the structures in which that 					consciousness is created. Demystifying the contradictory elements of traditional 					feminism itself, then, is part of our task. In capitalist society, the process 					through which human labor is translated into commodity, then capital, is a 					process necessarily affecting not only the pro- duction of tractors and bombs 					but the produc- tion of ideology. This process puts intellectual labor like 					esthetic labor, like factory labor like reproductive labor in the service of a 					system which generates a surplus of wealth for the few and subsistence for the 					many. This contradic- tion —between the forces of production (labor) and the 					property relations of production (own- ership) is the contradiction which 					Marxists claim moves history, because it produces class struggle: the power of 					masses of people to labor becomes the power to revolt.</p> 				<p> This contradiction has moved history. But, feminists ask, has it altered the 					basic relation between woman and man, woman and child- rearing, woman and 					psycho-sexual slavery? For the hypocrisy of bourgeois ideology in relation to 					bourgeois practice is paradigmatic within the structure of the family. Marriage, 					ostensibly a contractual agreement between consenting equals, is in fact a 					property relation between an owner and an exploited, isolated and powerless 					worker.</p> 				<p> It is the belief in the illusion that such social contracts can be fulfilled 					that has hung femi- nists on the horns of contradiction. Feminism was born in 					the 17th century along with the concept of equality of individuals. It was as 					Sheila Rowbotham has documented, <note type="researchNote">Rowbotham, Sheila, Women, Resistance and Revolution, Vintage Books (New York, 1974).</note> heated in the cauldron of bourgeois revolution 					and sim- mered in the idealism of 19th-century Utopian- ism à la Fourier who 					claimed that "the change in historical epoch can always be determined by the 					progress of women toward freedom." <note type="researchNote">lbid., p. 51</note></p> 				<p>Bourgeois feminism has begun, then, in its history of leaps and starts to 					identify and attack its sexist enemy, and taken a few long strides away from 					female feudalism for the benefit of some bourgeois women. But the heart of the 					problem remains. Feminists from Tennessee Claflin to Isadora Duncan have scored 					high in locating it. "At the ballot box is not where the shoe pinches .It is at 					home where the hus- band is the supreme ruler that the little difficul- ty 					arises; he will not surrender this absolute power unless he is compelled," wrote 					Claflin in 1871. <note type="researchNote">Schneir, Miriam, ed., Feminism: The Essential Historical Writings, Vintage Books (New York, 1972), p. xviii.</note> Duncan, in her 1927 autobiography said, "Any intelligent woman 					who reads the marriage contract and then goes into it, deserves all the 					consequences." <note type="researchNote">Ibid., p. XV.</note> Here is the confounding point. Monogamy asserts a situation in 					which one individual "owns" another. It is not ownership <pb n="3"/> per se that 					is in question now, but again, the mystification of what the individual is and 					can control. In participating in the compromised "equality" of marriage, each 					individual agrees to propagate the species in the context of the values of 					patriarchy. Values are learned, sex- uality is formed, ideology is 					maintained—within the family.</p> 				<p> When feminists claim that "the personal is political" they refer in a sense, to 					this problem. Their hypothesis is that one can generalize from the individual, 					internal dynamics of sexist op- pression, to a general rule. Freud's revelation 					of the structures of the unconscious confirms to an extent the validity of that 					enterprise. But up to now feminists have not taken it far enough. Having 					accepted the existence of subconscious structural analogues which mirror the 					differ- ences between the sexes in the world, we can now proceed with the 					knowledge that, as a group, we are bound not only by the manifest political 					forms of our oppression but by these internal psychic monsters. In attempting to 					combat these monsters, however, feminists have often mistaken the cart for the 					horse. The personal is political—but with few exceptions, this invocation has 					simply generated a longer list of symptoms of the sexist disease. We must locate 					the causes of this disease if we are ever to cure it. We must exploit Freud's 					science of the mind, but only insofar as it is conjoined with the science of 					history; that is to say out of the context of individualism.</p> 				<p> Sisterhood is really powerful only insofar as it is armed with a coherent theory 					and a mass strategy. We are in and of our culture; so is the feminist ideal. We 					must pursue, with maximum scientific rigor, the vanguard theories of culture 					which culture has produced. We must use the best available tools to locate the 					incoherence— the contradictions—in extant phallocentric models and generate 					predictive models based in the experience of both halves of the human race. 					Feminists who wish to throw Freud out the window because of simplistic readings 					of "penis envy" current in popular psychology might well take a look at 					Mitchell's Feminism and Psychoanalysis for a re-examination of the usefulness of 					psychoanalysis to feminist analysis. Her ef- fort there is exemplary. We cannot 					just look back nostalgically to ancient matriarchies. In- deed, fantasies about 					matriarchy in our era are pure science fiction. But their existence does suggest 					that alternate models for culture can exist.</p> 				<p> Recent controversy over Mitchell's book, among feminists and male psychoanalytic 					theo- rists here and abroad, suggests the "hotness" of this issue. 					Interestingly, this relation of sexu- ality to political economy is also being 					strongly developed outside a feminist context, most prominently on a major 					intellectual front—in the tradition of French structuralism. European feminists, 					especially in England and France, have thus been drawn to that tradition as 					height- ened contradictions impel them to seek out means for their resolution. 					The main tendency in this area is necessarily phallocentric: it is still being 					written largely through the cipher of a male experience of the world. But if we 					as wom- en don’t begin to write ourselves into history, who will? For so far, 					compared to the scope of the theoretical, strategic and practical task ahead, 					the "woman question" has really only been given lip service by the most advanced 					intellectual sciences —not surprising since they are "man-made."</p> 				<p> Engels, Marx and others have, of course, identified the monogamous, patriarchal 					family as the central prison for woman. Mechanistic Marxists therefore claim 					that releasing her from this singular prison into the work force (under 					socialism) must guarantee her freedom. Does it? Has it?</p> 				<p> Not significantly; not yet. The major 20th- century socialist revolutions have 					made some progress, removing, as in China, the most bar- baric manifestations of 					sexist domination. Im- mediately following the Soviet revolution, Lenin's 					program included not only the training of women to join the work force at all 					levels, but the legalization of abortion, free, accessible divorce, communal 					daycare, etc. Within ten years, however Stalinist backlash hit these fam- ily 					issues hardest; much harder, predictably, than the building of an extra-domestic 					women's work force. In China, with the Cultural Revolu- tion and before, 					ideological struggle against the values of patriarchy has at least begun. But in 					the U.S.S.R., in the context of their drive to quickly meet economic priorites 					which created the bastard known as "state capitalism," it was easier to fall 					back on the ingrained behaviors of the traditional family unit for free work by 					women in the home.</p> 				<p> The American Communist Party reflects this tendency, still defending the 					"fighting family unit" as a revolutionary force—in America, a reactionary 					notion. In fact. mothers have been strong revolutionaries. The strength of the 					wom- en of Viet Nam in the long battle to defeat American imperialism is a case 					in point. But, as in Algeria, where fighting European imperialism also meant the 					reassertion of the heavily patri- archal values of Arab and Islamic culture, 					wom- en's fate has most often been: off the battle- field and back to the 					kitchen. The contradic- tions of the double standard apparently are so 					heightened during periods of revolution that, as with Bolsheviks like Alexandra 					Kollontai, the preaching and practice of "free love" (and all it implies) 					becomes acceptable —for a brief time. Despite Lenin's great sympathy and work 					for women, his Victorianism won out in the area of sex. Even the Soviet woman 					engineer comes home to work that is still hers, and still never <pb n="4"/> 					done.</p> 				<p> In the U.S., too, anti-feminist backlash, somewhat reminiscent of the Stalinist 					attack on women's freedom, splits American feminism down its uncertain center. 					Though reformists suggest that there is room in a liberal America to heal the 					wounds of women, liberalism is par- ticularly dangerous since it cleverly masks 					its own conservatism, its own investment in the status quo. Liberal ideology 					neatly instantiates the two-part form of the contradiction. "Its progressive 					side provides a rationale for defend- ing the rights of individuals against the 					state. Its reactionary side emphasized that capitalism is not a system where one 					class exploits another but is rather a collection of individuals, any one of 					whom can succeed if he or she so decides." (6)</p> 				<p> I hope it is becoming clear how ideologically messy liberalism really is from a 					post-humanist perspective in which the individual can no longer be seen as the 					subject of history. Liberal- ism is seen by leftists as a joke because it bears 					so tenuously the wan hopes of a bankrupt hu- manism and is ultimately, 					untenable. Even hard-core conservatism is more internally co- herent. 					Conservatives and Marxists alike might describe capitalism as a system in which 					the "stronger" individuals make out. The difference, of course, is that 					conservatives say so approv- ingly, grounding their argument in the old dog- 					eat-dog theory of what they call human nature. Marxists have favored the idea 					that the industri- al capitalist system tends to pervert or alienate what is 					potentially, or at a given historical mo- ment "good" in human beings. Stated so 					simply, both are inadequate readings but at least they rehearse the consistency 					of these positions.</p> 				<p> The liberal wants to enjoy the fruits of his class privilege while salving his 					guilty con- science with a quasi-philosophic posture pro- posing that every 					individual (being protected by 'equality' before the law, by ’equal' opportunity 					measures, etc.) could theoretically be enjoying this same privilege if he or she 					were as hard- working and dauntless as him/herself. Thus the liberal buys off 					with a little charity or minimal social welfare all those who, by some extreme 					individual misfortune, can’t quite cut it.</p> 				<p> Here we return to the underbelly of co-opta- tion. While a bill assuring equal 					rights before unequal laws is flung in our faces, and even defeated (adding 					insult to injury), the dominant media simultaneously declare the women's 					movement to be "over" or somehow "won" be- cause of the presence of one and a 					half news anchor-women on TV or the financial viability of Ms. Magazine. 					Capitalist propaganda demon- strates before our eyes that by inference, if one 					woman can do work that one man can do, wom- en are the achieved "equals" of men. 					The re- sponsibility for change is thus cleverly switched back onto the 					shoulders of <emph>individual</emph> women; to change the world, all you really 					must do is change yourself. And the mapping of contra- dictions comes full 					circle.</p> 				<p> The liberal feminist, like the liberal social democrat, learns to sate herself 					on the token goodies she is tendered. Or the radical feminist (who, lacking a 					viable mass strategy, is a liberal in disguise) tries to build a separatist 					island on which she and her sisters can be "free." It's a dilemma. I was, and in 					some ways still am, such a radical feminist. After all, I am a member of the 					women's group which publishes this maga- zine. We try to experiment with 					anti-oligarchic forms, collective practice. But what is an egali- tarian island 					in a sea of capitalist contradictions but something doomed, as it were, to 					sinking?</p> 				<p> Witness a little linguistic contradiction and the issues it raises for us in 					Heresies. We are constituted as a collective. Adopting one of the stronger 					aspects of feminist practice, we at- tempt to chip away at the hierarchical 					authority structures of The System on a micro level by attempting to produce a 					theoretical magazine on a collective basis. The assumption here is that theory 					and practice must develop together in a dialectical relationship. But in order 					to function as a legal entity, we are transformed to Heresies Collective, Inc.; 					an incorporated col- lective. This is either redundant or ironic. The fact is, 					we don’t even aspire to making profits but are completely dependent on the legal 					and business structures around us.</p> 				<p>This dependence relation, the impossibility of autonomy within a given economic 					structure, has meant about a two-year life-span for most American collec- tives 					before us, according to popular lore. This dependence also means that artists, 					par- ticularly those artists being forced by height- ened economic 					contradictions to face political realities, must re-examine their place in our 					culture. The feminist filmmaker for example, has had to confront this issue head 					on. Film, more than any other artform, requires the mas- tery of machine 					technology. For women, that technology and the authority it connotes has been 					historically taboo. There are exceptions in the history of film <note type="researchNote">Guettel, Charnie, Marxism and Feminism, Women's Educational Press (Ontario, Canada, 1974), p. 2</note> but the 					percentage of wom- en filmmakers is dramatically low for a 20th- century art. 					Feminists with the energy and support of their sisters in the movement have 					begun to break that taboo. But in doing so, they have been thrown against a 					major contradiction facing all "independent" filmmakers: the prob- lem of 					capital. For to make films requires large amounts of capital, capital which is 					controlled by the ruling classes, middle-class liberals included.</p> 				<p> Advocates of independent filmmaking from Maya Deren in the 1940s (implicitly) to 					Annette Michelson in the 1960s (explicitly in her article "Film and the Radical 					Aspiration") <note type="researchNote">In Film Culture Reader, ed., P. Adams Sitney, Praeger (New York, 1970).</note> have proposed that a stance outside of the commercial market is 					itself a "political" gesture. It is—to the <pb n="5"/> extent that money can be 					garnered from liberals to make "art" as long as it is not fundamentally 					dangerous. But can any political art which attempts to attack the assumptions of 					The Sys- tem from within patriarchal capitalism actually threaten it? This has 					been and will be an area of debate for many political estheticians and ar- tists 					and can hardly be answered here.</p> 				<p> But we can and must confront the question. From what is the "independent" 					filmmaker or artist independent? She is not independent from the need to make a 					living. She is not independ- ent from the need for capital—money which gives the 					power to make her films and distribute her films within a tight commercial media 					mo- nopoly. When a feminist wonders why capital- ists won’t hand over the money 					to make anti- sexist films, she, like her "independent" male counterpart, must 					face the terms of her depend- ence. She has begun to beg, borrow or steal 					(translated as win grants, go into debt, etc.) the capital to write herself into 					visual history, mak- ing films about the experience of women; viz: the films of 					Julia Reichert, Yvonne Rainer, Barbara Kopple, Chantal Ackerman, and many 					others. But who actually sees these films? They are shown in women's festivals, 					in avant-garde and political forums in a few major cities. She is, in short, 					caught in that same economic trap. Cooperatives for pooling resources and 					sharing distribution efforts, such as New Day Films, are beginning to form; they 					are collectives like Heresies. But the absolute dependence on the inconsistent, 					discrimate charity of liberals is the underside of that ultimately romantic hope 					for "independence." The terms for independence, then, among artists and 					feminists, are the very terms of dependence. Yet another contradiction.</p> 				<p> I would like to convince all feminists that it is time to realign with the Left. 					Current economic realities, heightening contradictions, and the topography of 					world imperialism reaching its limits, are forcing many groups in America to 					confront their need for unity. The traditionally sectarian American Left itself 					is beginning to move toward coalition and alliance, toward unity across color 					lines, across race lines, across class lines <emph>and</emph> across gender 					lines. Within such a potential configuration women could speak to other women. 					We are beginning to recognize that all oppressed peoples within capitalism must 					come together if we are even to begin to be able to defend ourselves against the 					attacks and backlash of this system, much less to build a new one.</p> 				<p> Several feminist strategies for such a realign- ment of women with the broader 					struggle for freedom are presented in this issue of Heresies (see "Toward 					Socialist-Feminism" and "Wages for Housework"). This does not mean that wom- en 					will not have to continue to force the priority of their own demands in relation 					to the needs of others. Women will need autonomy to develop theory and strategy 					accountable to our own needs within a broad movement, to avoid the failures of 					socialist experiments in the past. Thus, we must make our fight in the context 					of a movement we help to define and build, a move- ment that can take on the 					class contradiction as well as the racial and sexual contradictions im- plicit 					in the structures of the larger society. For, on these structures, the fate of 					all women, like it or not, is inextricably dependent. To wed feminism to the 					myths and false hopes of liberal idealism is to contribute to the systematic 					liquidation of its potential power.</p>  				 				<p>Joan Braderman is completing her doctorate in film and political theory at 					N.Y.U., writes theory and criticism and makes 16mm films. She teaches film at 					The School of Visual Arts in New York City, is a political activist and likes to 					sing. </p></div> 				 			 		</body> 	</text> </TEI>
